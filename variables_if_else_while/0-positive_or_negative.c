@@ -3,17 +3,18 @@
 #include <stdio.h>
 
 /**
- * main - Point d'entrée du programme
+ * main - Entry point of the program
  *
- * Description: Cette fonction est le point d'entrée du programme
- * il effectue les tâches suivantes:
- * 1. Initialise le générateur de nombres aléatoires.
- * 2. Génère un nombre aléatoire entre -100 et 100.
- * 3. Détermine si le nombre est positif, négatif ou nul.
- * 4. Affiche le réçsultat sur la sortie standard.
+ * Description: This function is the entry point of the program and performs
+ * the following tasks:
+ * 1. Initializes the random number generator.
+ * 2. Generates a random number between -100 and 100.
+ * 3. Determines whether the number is positive, negative, or zero.
+ * 4. Prints the result to the standard output.
  *
- * Renvoie : Renvoie toujours 0 pour indiquer une exécution réussie.
+ * Return: Always returns 0 to indicate successful execution.
  */
+
 int main(void)
 {
 	int n;
