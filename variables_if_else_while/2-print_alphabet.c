@@ -1,0 +1,24 @@
+#include <stdio.h>
+/**
+ * main - Entry point of the program.
+ *
+ * Description: This function is the main entry point for the program.
+ * It prints the lowercase alphabet from 'a' to 'z'
+ * and returns 0 upon successful execution.
+ * Return: 0 for successful execution.
+ **/
+
+int main(void)
+{
+	char letter = 'a';
+
+	while (letter <= 'z')
+	{
+		putchar(letter);
+		letter++;
+	}
+
+	putchar('\n');
+
+	return (0);
+}
