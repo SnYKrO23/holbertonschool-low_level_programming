@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+/**
+ * main function of the program.
+ * It prints "_putchar" and a new line and returns 0.
+ *
+ * return 0 - The program executed successfully.
+ */
+
+int main(void){
+	printf("_putchar\n");
+	return (0);
+}
