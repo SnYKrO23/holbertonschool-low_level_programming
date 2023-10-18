@@ -14,6 +14,8 @@ int main(void)
 	char lowercase_letter = 'a';
 	char uppercase_letter = 'A';
 
+	int i;
+
 	for (int i = 0; i < 26; i++)
 	{
 		putchar(lowercase_letter);
