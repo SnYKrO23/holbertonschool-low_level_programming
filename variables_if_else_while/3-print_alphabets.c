@@ -11,24 +11,24 @@
 
 int main(void)
 {
-	char lowercase_letter = 'a';
-	char uppercase_letter = 'A';
+    char lowercase_letter = 'a';
+    char uppercase_letter = 'A';
 
-	int i;
+    int i;
 
-	for (int i = 0; i < 26; i++)
-	{
-		putchar(lowercase_letter);
-		lowercase_letter++;
-	}
+    for (i = 0; i < 26; i++)
+    {
+        putchar(lowercase_letter);
+        lowercase_letter++;
+    }
 
-	for (int i = 0; i < 26; i++)
-	{
-		putchar(uppercase_letter);
-		uppercase_letter++;
-	}
+    for (i = 0; i < 26; i++)
+    {
+        putchar(uppercase_letter);
+        uppercase_letter++;
+    }
 
-	putchar('\n');
+    putchar('\n');
 
-	return (0);
+    return 0;
 }
