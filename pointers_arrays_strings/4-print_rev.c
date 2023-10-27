@@ -4,6 +4,7 @@
  * print_rev - imprime a l'envers ,
  * print each character in reverse
  *
+ * @s: str The input string to be printed in reverse.
  */
 
 void print_rev(char *s)
